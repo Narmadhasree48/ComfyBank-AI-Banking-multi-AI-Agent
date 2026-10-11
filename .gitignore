@@ -1,0 +1,9 @@
+@'
+env1/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+banking.db
+.git-backup/
+'@ | Set-Content -Path .gitignore
